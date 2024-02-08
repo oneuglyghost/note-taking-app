@@ -29,7 +29,7 @@ const hide = (elem) => {
 let activeNote = {};
 
 const getNotes = () =>
-  fetch('/api/notes', {
+  fetch('/public/assets/css', {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json'
